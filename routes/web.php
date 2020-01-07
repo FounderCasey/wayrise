@@ -15,6 +15,14 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::get('/usecases', function () {
+    return view('useCases');
+});
+
+Route::get('/pricing', function () {
+    return view('pricing');
+});
+
 Route::post('/createTenant', 'TenantController@createTenant');
 
 Route::get('/createTenant', 'TenantController@show');
