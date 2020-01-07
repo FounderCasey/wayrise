@@ -3,7 +3,11 @@ import Navbar from './components/Navbar.vue'
 import Pricing from './components/Pricing.vue'
 import UseCases from './components/UseCases.vue'
 
+import VueAnimate from 'vue-animate-scroll'
+
 window.Vue = require('vue');
+
+Vue.use(VueAnimate)
 
 const app = new Vue({
     el: '#app',

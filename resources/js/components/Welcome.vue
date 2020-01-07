@@ -23,7 +23,7 @@
         <div id="conquer">
             <h1>Conquer your workspace</h1>
             <div class="flexbox">
-                <div class="card column center">
+                <div class="card column center" v-animate="'slide-up'">
                     <img
                         src="/css/images/collab.png"
                         alt="Instant collaboration artwork"
@@ -34,7 +34,7 @@
                         members to elminate a clustered workspace.
                     </p>
                 </div>
-                <div class="card column center">
+                <div class="card column center" v-animate="'slide-up'">
                     <img
                         src="/css/images/shared.png"
                         alt="Shared Inboxes artwork"
@@ -45,7 +45,7 @@
                         your conversational channels.
                     </p>
                 </div>
-                <div class="card column center">
+                <div class="card column center" v-animate="'slide-up'">
                     <img
                         src="/css/images/analytics.png"
                         alt="Analytics artwork"
@@ -58,7 +58,7 @@
                 </div>
             </div>
             <div class="flexbox bottom">
-                <div class="card column center">
+                <div class="card column center" v-animate="'slide-up'">
                     <img src="/css/images/macros.png" alt="Macros artwork" />
                     <h2>Mighty Macros</h2>
                     <p>
@@ -66,7 +66,7 @@
                         ensure your emails are handled with care.
                     </p>
                 </div>
-                <div class="card column center">
+                <div class="card column center" v-animate="'slide-up'">
                     <img
                         src="/css/images/integrations.png"
                         alt="Integrations artwork"
@@ -106,6 +106,22 @@ export default {};
 </script>
 
 <style lang="scss" scoped>
+.animate {
+    transition-delay: 0.14s;
+    transition-duration: 0.25s;
+    transition-timing-function: ease-in;
+}
+
+.slide-up {
+    transform: translateY(100px);
+    opacity: 0;
+}
+
+.slide-up.animate-active {
+    transform: translateY(0px);
+    opacity: 1;
+}
+
 #welcome {
     .spacer {
         height: 150px;

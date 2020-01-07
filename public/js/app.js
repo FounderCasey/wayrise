@@ -302,7 +302,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, "#welcome .spacer[data-v-51777872] {\n  height: 150px;\n}\n#welcome .cta-input input[type=email][data-v-51777872] {\n  border: none;\n  outline: none;\n  border-radius: 13px;\n  height: 50px;\n  width: 300px;\n  font-size: 1.3rem;\n  text-indent: 10px;\n  margin-right: 10px;\n}\n#welcome .cta-input button[data-v-51777872] {\n  height: 50px;\n  width: 50px;\n  border: none;\n  outline: none;\n  background: #ff4949;\n  background-image: url(\"/css/images/send.png\");\n  background-position: center;\n  background-size: 60%;\n  background-repeat: no-repeat;\n  color: white;\n  border-radius: 13px;\n  -webkit-transition: 0.2s;\n  transition: 0.2s;\n}\n#welcome .cta-input button[data-v-51777872]:hover {\n  background: #76d1e5;\n  background-image: url(\"/css/images/send.png\");\n  background-position: center;\n  background-size: 60%;\n  background-repeat: no-repeat;\n}\n#welcome header[data-v-51777872] {\n  background-image: url(\"/css/images/HeaderBackground.png\");\n  background-position: center;\n  background-repeat: no-repeat;\n  padding: 40px 0;\n  height: 540px;\n}\n#welcome header .header-container[data-v-51777872] {\n  width: 1030px;\n  text-align: center;\n}\n#welcome header .header-container h1[data-v-51777872] {\n  font-weight: 800;\n  font-size: 3rem;\n  width: 700px;\n  margin: auto;\n  margin-bottom: 30px;\n}\n#welcome header .header-container p[data-v-51777872] {\n  font-weight: 500;\n  font-size: 1.4rem;\n  width: 700px;\n  margin: auto;\n  margin-bottom: 30px;\n}\n#welcome #conquer[data-v-51777872] {\n  text-align: center;\n}\n#welcome #conquer .flexbox[data-v-51777872] {\n  margin-top: 57px;\n}\n#welcome #conquer .card[data-v-51777872] {\n  margin: 0 15px;\n}\n#welcome #conquer .card img[data-v-51777872] {\n  width: auto;\n  height: 150px;\n}\n#welcome #conquer .card p[data-v-51777872] {\n  font-size: 1.25rem;\n}\n#welcome #conquer .card[data-v-51777872]:first-of-type {\n  margin-left: 0;\n}\n#welcome #conquer .card[data-v-51777872]:last-of-type {\n  margin-right: 0;\n}\n#welcome #cta[data-v-51777872] {\n  background-image: url(\"/css/images/ctablob.png\");\n  background-size: 80%;\n  background-position: center;\n  background-repeat: no-repeat;\n  height: 540px;\n}\n#welcome #cta #cta-container[data-v-51777872] {\n  width: 1030px;\n  text-align: center;\n}\n#welcome #cta #cta-container h1[data-v-51777872] {\n  font-weight: 800;\n  font-size: 3rem;\n  width: 700px;\n  margin: auto;\n  margin-bottom: 30px;\n}\n#welcome #cta #cta-container p[data-v-51777872] {\n  font-weight: 500;\n  font-size: 1.4rem;\n  width: 700px;\n  margin: auto;\n  margin-bottom: 30px;\n}", ""]);
+exports.push([module.i, ".animate[data-v-51777872] {\n  -webkit-transition-delay: 0.14s;\n          transition-delay: 0.14s;\n  -webkit-transition-duration: 0.25s;\n          transition-duration: 0.25s;\n  -webkit-transition-timing-function: ease-in;\n          transition-timing-function: ease-in;\n}\n.slide-up[data-v-51777872] {\n  -webkit-transform: translateY(100px);\n          transform: translateY(100px);\n  opacity: 0;\n}\n.slide-up.animate-active[data-v-51777872] {\n  -webkit-transform: translateY(0px);\n          transform: translateY(0px);\n  opacity: 1;\n}\n#welcome .spacer[data-v-51777872] {\n  height: 150px;\n}\n#welcome .cta-input input[type=email][data-v-51777872] {\n  border: none;\n  outline: none;\n  border-radius: 13px;\n  height: 50px;\n  width: 300px;\n  font-size: 1.3rem;\n  text-indent: 10px;\n  margin-right: 10px;\n}\n#welcome .cta-input button[data-v-51777872] {\n  height: 50px;\n  width: 50px;\n  border: none;\n  outline: none;\n  background: #ff4949;\n  background-image: url(\"/css/images/send.png\");\n  background-position: center;\n  background-size: 60%;\n  background-repeat: no-repeat;\n  color: white;\n  border-radius: 13px;\n  -webkit-transition: 0.2s;\n  transition: 0.2s;\n}\n#welcome .cta-input button[data-v-51777872]:hover {\n  background: #76d1e5;\n  background-image: url(\"/css/images/send.png\");\n  background-position: center;\n  background-size: 60%;\n  background-repeat: no-repeat;\n}\n#welcome header[data-v-51777872] {\n  background-image: url(\"/css/images/HeaderBackground.png\");\n  background-position: center;\n  background-repeat: no-repeat;\n  padding: 40px 0;\n  height: 540px;\n}\n#welcome header .header-container[data-v-51777872] {\n  width: 1030px;\n  text-align: center;\n}\n#welcome header .header-container h1[data-v-51777872] {\n  font-weight: 800;\n  font-size: 3rem;\n  width: 700px;\n  margin: auto;\n  margin-bottom: 30px;\n}\n#welcome header .header-container p[data-v-51777872] {\n  font-weight: 500;\n  font-size: 1.4rem;\n  width: 700px;\n  margin: auto;\n  margin-bottom: 30px;\n}\n#welcome #conquer[data-v-51777872] {\n  text-align: center;\n}\n#welcome #conquer .flexbox[data-v-51777872] {\n  margin-top: 57px;\n}\n#welcome #conquer .card[data-v-51777872] {\n  margin: 0 15px;\n}\n#welcome #conquer .card img[data-v-51777872] {\n  width: auto;\n  height: 150px;\n}\n#welcome #conquer .card p[data-v-51777872] {\n  font-size: 1.25rem;\n}\n#welcome #conquer .card[data-v-51777872]:first-of-type {\n  margin-left: 0;\n}\n#welcome #conquer .card[data-v-51777872]:last-of-type {\n  margin-right: 0;\n}\n#welcome #cta[data-v-51777872] {\n  background-image: url(\"/css/images/ctablob.png\");\n  background-size: 80%;\n  background-position: center;\n  background-repeat: no-repeat;\n  height: 540px;\n}\n#welcome #cta #cta-container[data-v-51777872] {\n  width: 1030px;\n  text-align: center;\n}\n#welcome #cta #cta-container h1[data-v-51777872] {\n  font-weight: 800;\n  font-size: 3rem;\n  width: 700px;\n  margin: auto;\n  margin-bottom: 30px;\n}\n#welcome #cta #cta-container p[data-v-51777872] {\n  font-weight: 500;\n  font-size: 1.4rem;\n  width: 700px;\n  margin: auto;\n  margin-bottom: 30px;\n}", ""]);
 
 // exports
 
@@ -1433,6 +1433,20 @@ exports.clearImmediate = (typeof self !== "undefined" && self.clearImmediate) ||
 
 /***/ }),
 
+/***/ "./node_modules/vue-animate-scroll/lib/vue-animate-scroll.es.js":
+/*!**********************************************************************!*\
+  !*** ./node_modules/vue-animate-scroll/lib/vue-animate-scroll.es.js ***!
+  \**********************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+var Animate=function(t){this.os=t};Animate.prototype={activate(t,e){const a=e.modifiers,i=(e.value,this.os.animateClass,this.os.activeClass||"animate-active"),{top:s,bottom:n}=t.getBoundingClientRect(),l=s<document.documentElement.clientHeight&&n>0;t.classList.add(e.value),a.fade&&t.classList.add("fade"),l?t.classList.add(i):a.repeat&&t.classList.remove(i)}};var vueAnimateScroll={install(t,e={}){let a=new Animate(e);t.directive("animate",{bind(t,a){t.classList.add(e.animateClass||"animate")},inserted(t,e){a.activate(t,e),window.addEventListener("scroll",function(){a.activate(t,e)})}})}};/* harmony default export */ __webpack_exports__["default"] = (vueAnimateScroll);
+
+
+/***/ }),
+
 /***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/Navbar.vue?vue&type=template&id=6dde423b&scoped=true&":
 /*!*********************************************************************************************************************************************************************************************************************!*\
   !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/Navbar.vue?vue&type=template&id=6dde423b&scoped=true& ***!
@@ -1539,48 +1553,27 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _vm._m(0)
-}
-var staticRenderFns = [
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("div", { attrs: { id: "welcome" } }, [
-      _c("header", { staticClass: "column center" }, [
-        _c("div", { staticClass: "header-container" }, [
-          _c("h1", [
-            _vm._v("Gain full control of your customer conversations.")
-          ]),
-          _vm._v(" "),
-          _c("p", [
-            _vm._v(
-              "\n                Wayrise provides a decluttered and shared inbox to ensure\n                your customers are being taken care of and your team is\n                working effortlessly and smooth.\n            "
-            )
-          ])
-        ]),
-        _vm._v(" "),
-        _c("div", { staticClass: "cta-input flexbox" }, [
-          _c("input", {
-            attrs: {
-              type: "email",
-              name: "email-cta",
-              id: "email-cta",
-              placeholder: "Stay tuned"
-            }
-          }),
-          _vm._v(" "),
-          _c("button", { attrs: { type: "submit" } }),
-          _vm._v(" "),
-          _c("div", { staticClass: "spacer" })
-        ])
-      ]),
+  return _c("div", { attrs: { id: "welcome" } }, [
+    _vm._m(0),
+    _vm._v(" "),
+    _c("div", { attrs: { id: "conquer" } }, [
+      _c("h1", [_vm._v("Conquer your workspace")]),
       _vm._v(" "),
-      _c("div", { attrs: { id: "conquer" } }, [
-        _c("h1", [_vm._v("Conquer your workspace")]),
-        _vm._v(" "),
-        _c("div", { staticClass: "flexbox" }, [
-          _c("div", { staticClass: "card column center" }, [
+      _c("div", { staticClass: "flexbox" }, [
+        _c(
+          "div",
+          {
+            directives: [
+              {
+                name: "animate",
+                rawName: "v-animate",
+                value: "slide-up",
+                expression: "'slide-up'"
+              }
+            ],
+            staticClass: "card column center"
+          },
+          [
             _c("img", {
               attrs: {
                 src: "/css/images/collab.png",
@@ -1595,9 +1588,23 @@ var staticRenderFns = [
                 "\n                    Wayrise offers instant collaboration between team\n                    members to elminate a clustered workspace.\n                "
               )
             ])
-          ]),
-          _vm._v(" "),
-          _c("div", { staticClass: "card column center" }, [
+          ]
+        ),
+        _vm._v(" "),
+        _c(
+          "div",
+          {
+            directives: [
+              {
+                name: "animate",
+                rawName: "v-animate",
+                value: "slide-up",
+                expression: "'slide-up'"
+              }
+            ],
+            staticClass: "card column center"
+          },
+          [
             _c("img", {
               attrs: {
                 src: "/css/images/shared.png",
@@ -1612,9 +1619,23 @@ var staticRenderFns = [
                 "\n                    Wayrise ensures that your team has a platform for all of\n                    your conversational channels.\n                "
               )
             ])
-          ]),
-          _vm._v(" "),
-          _c("div", { staticClass: "card column center" }, [
+          ]
+        ),
+        _vm._v(" "),
+        _c(
+          "div",
+          {
+            directives: [
+              {
+                name: "animate",
+                rawName: "v-animate",
+                value: "slide-up",
+                expression: "'slide-up'"
+              }
+            ],
+            staticClass: "card column center"
+          },
+          [
             _c("img", {
               attrs: {
                 src: "/css/images/analytics.png",
@@ -1629,11 +1650,25 @@ var staticRenderFns = [
                 "\n                    Wayrise keeps track of important data for you, helping\n                    your team improve constantly.\n                "
               )
             ])
-          ])
-        ]),
-        _vm._v(" "),
-        _c("div", { staticClass: "flexbox bottom" }, [
-          _c("div", { staticClass: "card column center" }, [
+          ]
+        )
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "flexbox bottom" }, [
+        _c(
+          "div",
+          {
+            directives: [
+              {
+                name: "animate",
+                rawName: "v-animate",
+                value: "slide-up",
+                expression: "'slide-up'"
+              }
+            ],
+            staticClass: "card column center"
+          },
+          [
             _c("img", {
               attrs: { src: "/css/images/macros.png", alt: "Macros artwork" }
             }),
@@ -1645,9 +1680,23 @@ var staticRenderFns = [
                 "\n                    Wayrise offers a wide set of macros and custom rules to\n                    ensure your emails are handled with care.\n                "
               )
             ])
-          ]),
-          _vm._v(" "),
-          _c("div", { staticClass: "card column center" }, [
+          ]
+        ),
+        _vm._v(" "),
+        _c(
+          "div",
+          {
+            directives: [
+              {
+                name: "animate",
+                rawName: "v-animate",
+                value: "slide-up",
+                expression: "'slide-up'"
+              }
+            ],
+            staticClass: "card column center"
+          },
+          [
             _c("img", {
               attrs: {
                 src: "/css/images/integrations.png",
@@ -1662,35 +1711,74 @@ var staticRenderFns = [
                 "\n                    Do you need live chat support or social media support?\n                    You’re covered with our integrations.\n                "
               )
             ])
-          ])
+          ]
+        )
+      ])
+    ]),
+    _vm._v(" "),
+    _vm._m(1)
+  ])
+}
+var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("header", { staticClass: "column center" }, [
+      _c("div", { staticClass: "header-container" }, [
+        _c("h1", [_vm._v("Gain full control of your customer conversations.")]),
+        _vm._v(" "),
+        _c("p", [
+          _vm._v(
+            "\n                Wayrise provides a decluttered and shared inbox to ensure\n                your customers are being taken care of and your team is\n                working effortlessly and smooth.\n            "
+          )
         ])
       ]),
       _vm._v(" "),
-      _c("div", { staticClass: "column center", attrs: { id: "cta" } }, [
-        _c("div", { attrs: { id: "cta-container" } }, [
-          _c("h1", [_vm._v("Wayrise is on the way")]),
-          _vm._v(" "),
-          _c("p", [
-            _vm._v(
-              "\n                Be sure to opt-in to hearing more about the release. This is\n                not a newsletter, just a reminder for when\n                "
-            ),
-            _c("strong", [_vm._v("Wayrise")]),
-            _vm._v(" becomes open to the public.\n            ")
-          ])
-        ]),
+      _c("div", { staticClass: "cta-input flexbox" }, [
+        _c("input", {
+          attrs: {
+            type: "email",
+            name: "email-cta",
+            id: "email-cta",
+            placeholder: "Stay tuned"
+          }
+        }),
         _vm._v(" "),
-        _c("div", { staticClass: "cta-input flexbox" }, [
-          _c("input", {
-            attrs: {
-              type: "email",
-              name: "email-cta",
-              id: "email-cta",
-              placeholder: "Stay tuned"
-            }
-          }),
-          _vm._v(" "),
-          _c("button", { attrs: { type: "submit" } })
+        _c("button", { attrs: { type: "submit" } }),
+        _vm._v(" "),
+        _c("div", { staticClass: "spacer" })
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "column center", attrs: { id: "cta" } }, [
+      _c("div", { attrs: { id: "cta-container" } }, [
+        _c("h1", [_vm._v("Wayrise is on the way")]),
+        _vm._v(" "),
+        _c("p", [
+          _vm._v(
+            "\n                Be sure to opt-in to hearing more about the release. This is\n                not a newsletter, just a reminder for when\n                "
+          ),
+          _c("strong", [_vm._v("Wayrise")]),
+          _vm._v(" becomes open to the public.\n            ")
         ])
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "cta-input flexbox" }, [
+        _c("input", {
+          attrs: {
+            type: "email",
+            name: "email-cta",
+            id: "email-cta",
+            placeholder: "Stay tuned"
+          }
+        }),
+        _vm._v(" "),
+        _c("button", { attrs: { type: "submit" } })
       ])
     ])
   }
@@ -13838,11 +13926,14 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components_Navbar_vue__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./components/Navbar.vue */ "./resources/js/components/Navbar.vue");
 /* harmony import */ var _components_Pricing_vue__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./components/Pricing.vue */ "./resources/js/components/Pricing.vue");
 /* harmony import */ var _components_UseCases_vue__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./components/UseCases.vue */ "./resources/js/components/UseCases.vue");
+/* harmony import */ var vue_animate_scroll__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! vue-animate-scroll */ "./node_modules/vue-animate-scroll/lib/vue-animate-scroll.es.js");
+
 
 
 
 
 window.Vue = __webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.common.js");
+Vue.use(vue_animate_scroll__WEBPACK_IMPORTED_MODULE_4__["default"]);
 var app = new Vue({
   el: '#app',
   components: {
