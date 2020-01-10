@@ -14,8 +14,14 @@
 Auth::routes();
 
 Route::middleware('auth')->group(function () {
-    Route::get('/app', function () {
+    Route::get('/dashboard', function () {
         // Only authenticated users may enter...
         return view('tenants.app');
     });
+
+    Route::get('/logout', 'Auth\LoginController@logout');
+
+    Route::get('/dashboard/settings', function () {
+        return view('tenants.settings');
+    })->middleware('check_role:' . "Owner");
 });

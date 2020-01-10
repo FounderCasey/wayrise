@@ -9,7 +9,7 @@
                     working effortlessly and smooth.
                 </p>
             </div>
-            <div class="cta-input flexbox">
+            <div class="cta-input flexbox" v-animate="'slide-up'">
                 <input
                     type="email"
                     name="email-cta"
@@ -88,7 +88,7 @@
                     <strong>Wayrise</strong> becomes open to the public.
                 </p>
             </div>
-            <div class="cta-input flexbox">
+            <div class="cta-input flexbox" v-animate="'slide-up'">
                 <input
                     type="email"
                     name="email-cta"

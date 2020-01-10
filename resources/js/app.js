@@ -2,6 +2,7 @@ import Welcome from './components/Welcome.vue'
 import Navbar from './components/Navbar.vue'
 import Pricing from './components/Pricing.vue'
 import UseCases from './components/UseCases.vue'
+import RegisterUser from './components/RegisterUser.vue'
 
 import VueAnimate from 'vue-animate-scroll'
 
@@ -15,6 +16,7 @@ const app = new Vue({
         welcome: Welcome,
         navbar: Navbar,
         pricing: Pricing,
-        'use-cases': UseCases
+        'use-cases': UseCases,
+        'register-user': RegisterUser
     }
 });
