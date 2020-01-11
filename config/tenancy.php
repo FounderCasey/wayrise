@@ -26,7 +26,9 @@ return [
     'exempt_domains' => [ // e.g. domains which host landing pages, sign up pages, etc
         // 'localhost',
         'wayrise.test',
-        'wayrise.herokuapp.com'
+        'wayrise.herokuapp.com',
+        'http://165.227.10.9/',
+        'wayrise.io'
     ],
     'database' => [
         'based_on' => null, // The connection that will be used as a base for the dynamically created tenant connection. Set to null to use the default connection.
