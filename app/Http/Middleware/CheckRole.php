@@ -21,8 +21,10 @@ class CheckRole
         $user = Auth::guard()->user(); //get user
         if ($user->role == $role) {
             return $next($request);
+        } else if ($user->role == "Owner") {
+            return $next($request);
         } else {
-            throw new AuthorizationException('You do not have permission to view this page');
+            throw new AuthorizationException('You do not have permission to view this page. If this is incorrect, contact your sites owner.');
         }
     }
 }

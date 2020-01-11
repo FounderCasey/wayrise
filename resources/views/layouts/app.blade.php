@@ -6,7 +6,7 @@
 
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
-
+    <title>Wayrise</title>
     <style>
         body {
             font-family: "Montserrat", sans-serif;

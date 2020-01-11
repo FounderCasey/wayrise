@@ -83,7 +83,7 @@ export default {
       axios
         .post("/register", this.fields)
         .then(response => {
-          window.location.replace("/app");
+          window.location.replace("/dashboard");
         })
         .catch(error => {
           if (error.response.status === 422) {

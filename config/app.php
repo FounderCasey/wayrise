@@ -161,15 +161,15 @@ return [
         Illuminate\Translation\TranslationServiceProvider::class,
         Illuminate\Validation\ValidationServiceProvider::class,
         Illuminate\View\ViewServiceProvider::class,
-
-        /*
-         * Gmail package
-         */
-        Dacastro4\LaravelGmail\LaravelGmailServiceProvider::class,
-
         /*
          * Package Service Providers...
          */
+
+        /*
+         * GMail Providers
+         */
+
+        Dacastro4\LaravelGmail\LaravelGmailServiceProvider::class,
 
         /*
          * Application Service Providers...

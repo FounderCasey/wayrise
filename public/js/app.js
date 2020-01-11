@@ -1971,7 +1971,7 @@ __webpack_require__.r(__webpack_exports__);
 
       this.errors = {};
       axios__WEBPACK_IMPORTED_MODULE_0___default.a.post("/register", this.fields).then(function (response) {
-        window.location.replace("/app");
+        window.location.replace("/dashboard");
       })["catch"](function (error) {
         if (error.response.status === 422) {
           _this.errors = error.response.data.errors || {};
