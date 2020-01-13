@@ -30,3 +30,5 @@ Route::get('/createTenant', 'TenantController@show');
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+
+Route::post('/createEmail', 'EmailSignUpController@createEmail');

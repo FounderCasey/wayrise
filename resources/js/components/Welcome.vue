@@ -3,11 +3,21 @@
     <header class="flexbox">
       <div class="header-container column">
         <h1>Gain full control of your customer conversations.</h1>
-        <div class="cta-input flexbox animate-in">
-          <input type="email" name="email-cta" id="email-cta" placeholder="Stay tuned" />
-          <button type="submit"></button>
+        <div v-if="!success">
+          <form class="cta-input flexbox animate-in" @submit.prevent="submit">
+            <input
+              type="email"
+              name="email-cta1"
+              id="email-cta1"
+              placeholder="Stay tuned"
+              v-model="fields.email"
+            />
+            <button type="submit"></button>
+          </form>
           <div class="spacer"></div>
         </div>
+        <h3 v-if="success">Thanks! We will keep you in the loop!</h3>
+        <div v-if="success" class="spacer"></div>
       </div>
       <div class="carousel">
         <div class="carousel__item" v-for="(item, index) in messages" :key="index">
@@ -80,25 +90,14 @@
         </div>
       </div>
     </div>
-    <div id="cta" class="column center">
-      <div id="cta-container">
-        <h1>Excited?</h1>
-        <p>
-          Be sure to opt-in to hearing more about the release. This is
-          not a newsletter, just a reminder for when
-          <strong>Wayrise</strong> becomes open to the public.
-        </p>
-        <div class="cta-input flexbox" v-animate="'slide-up'">
-          <input type="email" name="email-cta" id="email-cta" placeholder="Stay tuned" />
-          <button type="submit"></button>
-        </div>
-      </div>
-    </div>
+    <call-to-action></call-to-action>
   </div>
 </template>
 
 <script>
 import { MessageSquareIcon, MailIcon, TwitterIcon } from "vue-feather-icons";
+import axios from "axios";
+import CallToAction from "./CTA";
 
 export default {
   name: "welcome",
@@ -129,13 +128,32 @@ export default {
           "(321) 431-1234",
           "I was wondering if it's possible to place..."
         ]
-      ]
+      ],
+      fields: {},
+      errors: {},
+      success: false
     };
+  },
+  methods: {
+    submit() {
+      this.errors = {};
+      axios
+        .post("/createEmail", this.fields)
+        .then(response => {
+          this.success = true;
+        })
+        .catch(error => {
+          if (error.response.status === 422) {
+            this.errors = error.response.data.errors || {};
+          }
+        });
+    }
   },
   components: {
     MessageSquareIcon,
     MailIcon,
-    TwitterIcon
+    TwitterIcon,
+    CallToAction
   }
 };
 </script>
@@ -184,7 +202,7 @@ $text-color: #f8f8fb;
   color: $text-color;
 
   .spacer {
-    height: 120px;
+    height: 70px;
   }
 
   .cta-input {
@@ -272,37 +290,6 @@ $text-color: #f8f8fb;
 
       &:last-of-type {
         margin-right: 0;
-      }
-    }
-  }
-
-  #cta {
-    background: $header-bg;
-    height: 438px;
-    margin-top: 55px;
-
-    #cta-container {
-      width: 1030px;
-      text-align: center;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-
-      h1 {
-        font-weight: 800;
-        font-size: 3rem;
-        width: 700px;
-        margin: auto;
-        margin-bottom: 30px;
-      }
-
-      p {
-        font-weight: 500;
-        font-size: 1.4rem;
-        width: 700px;
-        margin: auto;
-        margin-bottom: 30px;
       }
     }
   }
