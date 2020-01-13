@@ -24,6 +24,7 @@
         "vue-template-compiler": "^2.6.10"
     },
     "dependencies": {
-        "vue-animate-scroll": "^0.1.5"
+        "vue-animate-scroll": "^0.1.5",
+        "vue-feather-icons": "^5.0.0"
     }
 }

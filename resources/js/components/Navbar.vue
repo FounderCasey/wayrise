@@ -1,7 +1,9 @@
 <template>
     <div id="navbar">
-        <div class="flexbox">
-            <a href="/" id="logo"><h3>Wayrise</h3></a>
+        <div class="flexbox max">
+            <a href="/" id="logo">
+                <h3>Wayrise</h3>
+            </a>
             <div class="flexbox">
                 <a href="/usecases">Use Cases</a>
                 <a href="/pricing">Pricing</a>
@@ -17,6 +19,10 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+#navbar {
+    background: #393ced;
+}
+
 .flexbox {
     justify-content: space-between;
     align-items: center;
@@ -30,7 +36,7 @@ export default {
         padding: auto 5px;
         margin: auto 20px;
         text-decoration: none;
-        color: #181818;
+        color: #f8f8fb;
 
         &:first-of-type {
             padding-left: 0;

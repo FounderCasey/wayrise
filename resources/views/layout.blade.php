@@ -14,9 +14,13 @@
             body {
                 font-family: "Montserrat", sans-serif;
                 color: #181818;
-                max-width: 1198px;
                 margin: auto;
             }
+
+            .max {
+                max-width: 1198px;
+                margin: auto;
+            }   
 
             .flexbox {
                 display: flex;
