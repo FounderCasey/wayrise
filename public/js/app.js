@@ -2172,6 +2172,10 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
 
 /* harmony default export */ __webpack_exports__["default"] = ({
   name: "welcome",
@@ -2220,7 +2224,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, ".animate[data-v-51777872] {\n  -webkit-transition-delay: 0.14s;\n          transition-delay: 0.14s;\n  -webkit-transition-duration: 0.25s;\n          transition-duration: 0.25s;\n  -webkit-transition-timing-function: ease-in;\n          transition-timing-function: ease-in;\n}\n.slide-up[data-v-51777872] {\n  -webkit-transform: translateY(100px);\n          transform: translateY(100px);\n  opacity: 0;\n}\n.slide-up.animate-active[data-v-51777872] {\n  -webkit-transform: translateY(0px);\n          transform: translateY(0px);\n  opacity: 1;\n}\n#welcome[data-v-51777872] {\n  background: #23233d;\n  color: #f8f8fb;\n}\n#welcome .spacer[data-v-51777872] {\n  height: 120px;\n}\n#welcome .cta-input input[type=email][data-v-51777872] {\n  border: none;\n  outline: none;\n  border-radius: 5px;\n  height: 50px;\n  width: 300px;\n  font-size: 1.3rem;\n  text-indent: 10px;\n  margin-right: 10px;\n}\n#welcome .cta-input button[data-v-51777872] {\n  height: 50px;\n  width: 50px;\n  border: none;\n  outline: none;\n  background: #23233d;\n  background-image: url(\"/css/images/send.png\");\n  background-position: center;\n  background-size: 60%;\n  background-repeat: no-repeat;\n  color: white;\n  border-radius: 5px;\n  -webkit-transition: 0.2s;\n  transition: 0.2s;\n}\n#welcome .cta-input button[data-v-51777872]:hover {\n  background: #76d1e5;\n  background-image: url(\"/css/images/send.png\");\n  background-position: center;\n  background-size: 60%;\n  background-repeat: no-repeat;\n  cursor: pointer;\n}\n#welcome header[data-v-51777872] {\n  padding: 40px 0 70px 0;\n  height: 540px;\n  background-image: url(\"/css/images/header-bg.svg\");\n  background-repeat: no-repeat;\n  background-position: bottom;\n  display: -webkit-box;\n  display: flex;\n  -webkit-box-pack: center;\n          justify-content: center;\n}\n#welcome header .header-container[data-v-51777872] {\n  text-align: left;\n  padding-right: 40px;\n}\n#welcome header .header-container h1[data-v-51777872] {\n  font-weight: 800;\n  font-size: 60px;\n  width: 550px;\n  margin: auto;\n  margin-bottom: 30px;\n}\n#welcome #conquer[data-v-51777872] {\n  text-align: center;\n}\n#welcome #conquer .flexbox[data-v-51777872] {\n  margin-top: 57px;\n}\n#welcome #conquer .card[data-v-51777872] {\n  margin: 0 15px;\n}\n#welcome #conquer .card img[data-v-51777872] {\n  width: auto;\n  height: 150px;\n}\n#welcome #conquer .card p[data-v-51777872] {\n  font-size: 1.25rem;\n}\n#welcome #conquer .card[data-v-51777872]:first-of-type {\n  margin-left: 0;\n}\n#welcome #conquer .card[data-v-51777872]:last-of-type {\n  margin-right: 0;\n}\n#welcome #cta[data-v-51777872] {\n  background-image: url(\"/css/images/ctablob.png\");\n  background-size: 80%;\n  background-position: center;\n  background-repeat: no-repeat;\n  height: 540px;\n}\n#welcome #cta #cta-container[data-v-51777872] {\n  width: 1030px;\n  text-align: center;\n}\n#welcome #cta #cta-container h1[data-v-51777872] {\n  font-weight: 800;\n  font-size: 3rem;\n  width: 700px;\n  margin: auto;\n  margin-bottom: 30px;\n}\n#welcome #cta #cta-container p[data-v-51777872] {\n  font-weight: 500;\n  font-size: 1.4rem;\n  width: 700px;\n  margin: auto;\n  margin-bottom: 30px;\n}\n*[data-v-51777872],\n*[data-v-51777872]::before,\n*[data-v-51777872]::after {\n  box-sizing: border-box;\n}\n.carousel[data-v-51777872] {\n  position: relative;\n  width: 360px;\n  display: -webkit-box;\n  display: flex;\n  -webkit-box-pack: center;\n          justify-content: center;\n  -webkit-box-orient: vertical;\n  -webkit-box-direction: normal;\n          flex-direction: column;\n}\n.carousel__item[data-v-51777872] {\n  display: -webkit-box;\n  display: flex;\n  position: absolute;\n  width: 100%;\n  height: 80px;\n  opacity: 0;\n  will-change: transform, opacity;\n  -webkit-animation: carousel-animate-vertical-data-v-51777872 15s linear infinite;\n          animation: carousel-animate-vertical-data-v-51777872 15s linear infinite;\n}\n.carousel__item[data-v-51777872]:nth-child(1) {\n  -webkit-animation-delay: calc(3.75s * -1);\n          animation-delay: calc(3.75s * -1);\n}\n.carousel__item[data-v-51777872]:nth-child(2) {\n  -webkit-animation-delay: calc(3.75s * 0);\n          animation-delay: calc(3.75s * 0);\n}\n.carousel__item[data-v-51777872]:nth-child(3) {\n  -webkit-animation-delay: calc(3.75s * 1);\n          animation-delay: calc(3.75s * 1);\n}\n.carousel__item[data-v-51777872]:last-child {\n  -webkit-animation-delay: calc(-3.75s * 2);\n          animation-delay: calc(-3.75s * 2);\n}\n.carousel__item-body[data-v-51777872] {\n  width: 100%;\n  padding: 9px;\n  background-color: #fff;\n  border-radius: 3px;\n  color: #23233d;\n}\n.carousel__item-body p[data-v-51777872] {\n  margin: 2px 0;\n}\n.carousel__item-body .flexbox[data-v-51777872] {\n  display: -webkit-box;\n  display: flex;\n  -webkit-box-pack: justify;\n          justify-content: space-between;\n}\n.title[data-v-51777872] {\n  font-size: 14px;\n  font-weight: 700;\n  margin-top: 10px;\n}\n#time[data-v-51777872] {\n  font-size: 10px;\n  color: #969696;\n  padding-top: 3px;\n}\n#name[data-v-51777872] {\n  font-size: 14px;\n  color: #707070;\n  font-weight: 500;\n}\n#message[data-v-51777872] {\n  font-size: 14px;\n  font-weight: 500;\n}\n@-webkit-keyframes carousel-animate-vertical-data-v-51777872 {\n0% {\n    -webkit-transform: translateY(100%) scale(0.5);\n            transform: translateY(100%) scale(0.5);\n    opacity: 0;\n    visibility: hidden;\n}\n3%, 25% {\n    -webkit-transform: translateY(100%) scale(0.7);\n            transform: translateY(100%) scale(0.7);\n    opacity: 0.4;\n    visibility: visible;\n}\n28%, 50% {\n    -webkit-transform: translateY(0) scale(1);\n            transform: translateY(0) scale(1);\n    opacity: 1;\n    visibility: visible;\n}\n53%, 75% {\n    -webkit-transform: translateY(-100%) scale(0.7);\n            transform: translateY(-100%) scale(0.7);\n    opacity: 0.4;\n    visibility: visible;\n}\n78% {\n    -webkit-transform: translateY(-100%) scale(0.5);\n            transform: translateY(-100%) scale(0.5);\n    opacity: 0;\n    visibility: visible;\n}\n100% {\n    -webkit-transform: translateY(-100%) scale(0.2);\n            transform: translateY(-100%) scale(0.2);\n    opacity: 0;\n    visibility: hidden;\n}\n}\n@keyframes carousel-animate-vertical-data-v-51777872 {\n0% {\n    -webkit-transform: translateY(100%) scale(0.5);\n            transform: translateY(100%) scale(0.5);\n    opacity: 0;\n    visibility: hidden;\n}\n3%, 25% {\n    -webkit-transform: translateY(100%) scale(0.7);\n            transform: translateY(100%) scale(0.7);\n    opacity: 0.4;\n    visibility: visible;\n}\n28%, 50% {\n    -webkit-transform: translateY(0) scale(1);\n            transform: translateY(0) scale(1);\n    opacity: 1;\n    visibility: visible;\n}\n53%, 75% {\n    -webkit-transform: translateY(-100%) scale(0.7);\n            transform: translateY(-100%) scale(0.7);\n    opacity: 0.4;\n    visibility: visible;\n}\n78% {\n    -webkit-transform: translateY(-100%) scale(0.5);\n            transform: translateY(-100%) scale(0.5);\n    opacity: 0;\n    visibility: visible;\n}\n100% {\n    -webkit-transform: translateY(-100%) scale(0.2);\n            transform: translateY(-100%) scale(0.2);\n    opacity: 0;\n    visibility: hidden;\n}\n}", ""]);
+exports.push([module.i, ".animate[data-v-51777872] {\n  -webkit-transition-delay: 0.14s;\n          transition-delay: 0.14s;\n  -webkit-transition-duration: 0.25s;\n          transition-duration: 0.25s;\n  -webkit-transition-timing-function: ease-in;\n          transition-timing-function: ease-in;\n}\n.slide-up[data-v-51777872] {\n  -webkit-transform: translateY(100px);\n          transform: translateY(100px);\n  opacity: 0;\n}\n.slide-up.animate-active[data-v-51777872] {\n  -webkit-transform: translateY(0px);\n          transform: translateY(0px);\n  opacity: 1;\n}\n.animate-in[data-v-51777872] {\n  -webkit-animation-name: animate-in-data-v-51777872;\n          animation-name: animate-in-data-v-51777872;\n  -webkit-animation-duration: 0.75s;\n          animation-duration: 0.75s;\n  -webkit-animation-timing-function: ease-in;\n          animation-timing-function: ease-in;\n}\n@-webkit-keyframes animate-in-data-v-51777872 {\nfrom {\n    -webkit-transform: translateY(100px);\n            transform: translateY(100px);\n    opacity: 0;\n}\nto {\n    -webkit-transform: translateY(0px);\n            transform: translateY(0px);\n    opacity: 1;\n}\n}\n@keyframes animate-in-data-v-51777872 {\nfrom {\n    -webkit-transform: translateY(100px);\n            transform: translateY(100px);\n    opacity: 0;\n}\nto {\n    -webkit-transform: translateY(0px);\n            transform: translateY(0px);\n    opacity: 1;\n}\n}\n#welcome[data-v-51777872] {\n  background: #23233d;\n  color: #f8f8fb;\n}\n#welcome .spacer[data-v-51777872] {\n  height: 120px;\n}\n#welcome .cta-input input[type=email][data-v-51777872] {\n  border: none;\n  outline: none;\n  border-radius: 5px;\n  height: 50px;\n  width: 300px;\n  font-size: 1.3rem;\n  text-indent: 10px;\n  margin-right: 10px;\n}\n#welcome .cta-input button[data-v-51777872] {\n  height: 50px;\n  width: 50px;\n  border: none;\n  outline: none;\n  background: #23233d;\n  background-image: url(\"/css/images/send.png\");\n  background-position: center;\n  background-size: 60%;\n  background-repeat: no-repeat;\n  color: white;\n  border-radius: 5px;\n  -webkit-transition: 0.2s;\n  transition: 0.2s;\n}\n#welcome .cta-input button[data-v-51777872]:hover {\n  background: #76d1e5;\n  background-image: url(\"/css/images/send.png\");\n  background-position: center;\n  background-size: 60%;\n  background-repeat: no-repeat;\n  cursor: pointer;\n}\n#welcome header[data-v-51777872] {\n  padding: 40px 0 70px 0;\n  height: 540px;\n  background-image: url(\"/css/images/header-bg.svg\");\n  background-repeat: no-repeat;\n  background-position: bottom;\n  display: -webkit-box;\n  display: flex;\n  -webkit-box-pack: center;\n          justify-content: center;\n}\n#welcome header .header-container[data-v-51777872] {\n  text-align: left;\n  padding-right: 40px;\n}\n#welcome header .header-container h1[data-v-51777872] {\n  font-weight: 800;\n  font-size: 60px;\n  width: 550px;\n  margin: auto;\n  margin-bottom: 30px;\n}\n#welcome #conquer[data-v-51777872] {\n  text-align: center;\n}\n#welcome #conquer .flexbox[data-v-51777872] {\n  margin-top: 57px;\n}\n#welcome #conquer .card[data-v-51777872] {\n  margin: 0 15px;\n}\n#welcome #conquer .card img[data-v-51777872] {\n  width: auto;\n  height: 150px;\n}\n#welcome #conquer .card p[data-v-51777872] {\n  font-size: 1.25rem;\n}\n#welcome #conquer .card[data-v-51777872]:first-of-type {\n  margin-left: 0;\n}\n#welcome #conquer .card[data-v-51777872]:last-of-type {\n  margin-right: 0;\n}\n#welcome #cta[data-v-51777872] {\n  background: #393ced;\n  height: 438px;\n  margin-top: 55px;\n}\n#welcome #cta #cta-container[data-v-51777872] {\n  width: 1030px;\n  text-align: center;\n  display: -webkit-box;\n  display: flex;\n  -webkit-box-orient: vertical;\n  -webkit-box-direction: normal;\n          flex-direction: column;\n  -webkit-box-pack: center;\n          justify-content: center;\n  -webkit-box-align: center;\n          align-items: center;\n}\n#welcome #cta #cta-container h1[data-v-51777872] {\n  font-weight: 800;\n  font-size: 3rem;\n  width: 700px;\n  margin: auto;\n  margin-bottom: 30px;\n}\n#welcome #cta #cta-container p[data-v-51777872] {\n  font-weight: 500;\n  font-size: 1.4rem;\n  width: 700px;\n  margin: auto;\n  margin-bottom: 30px;\n}\n*[data-v-51777872],\n*[data-v-51777872]::before,\n*[data-v-51777872]::after {\n  box-sizing: border-box;\n}\n.carousel[data-v-51777872] {\n  position: relative;\n  width: 360px;\n  display: -webkit-box;\n  display: flex;\n  -webkit-box-pack: center;\n          justify-content: center;\n  -webkit-box-orient: vertical;\n  -webkit-box-direction: normal;\n          flex-direction: column;\n}\n.carousel__item[data-v-51777872] {\n  display: -webkit-box;\n  display: flex;\n  position: absolute;\n  width: 100%;\n  height: 80px;\n  opacity: 0;\n  will-change: transform, opacity;\n  -webkit-animation: carousel-animate-vertical-data-v-51777872 15s linear infinite;\n          animation: carousel-animate-vertical-data-v-51777872 15s linear infinite;\n}\n.carousel__item[data-v-51777872]:nth-child(1) {\n  -webkit-animation-delay: calc(3.75s * -1);\n          animation-delay: calc(3.75s * -1);\n}\n.carousel__item[data-v-51777872]:nth-child(2) {\n  -webkit-animation-delay: calc(3.75s * 0);\n          animation-delay: calc(3.75s * 0);\n}\n.carousel__item[data-v-51777872]:nth-child(3) {\n  -webkit-animation-delay: calc(3.75s * 1);\n          animation-delay: calc(3.75s * 1);\n}\n.carousel__item[data-v-51777872]:last-child {\n  -webkit-animation-delay: calc(-3.75s * 2);\n          animation-delay: calc(-3.75s * 2);\n}\n.carousel__item-body[data-v-51777872] {\n  width: 100%;\n  padding: 9px;\n  background-color: #fff;\n  border-radius: 3px;\n  color: #23233d;\n}\n.carousel__item-body p[data-v-51777872] {\n  margin: 2px 0;\n}\n.carousel__item-body .flexbox[data-v-51777872] {\n  display: -webkit-box;\n  display: flex;\n  -webkit-box-pack: justify;\n          justify-content: space-between;\n}\n.title[data-v-51777872] {\n  font-size: 14px;\n  font-weight: 700;\n  margin-top: 10px;\n}\n#time[data-v-51777872] {\n  font-size: 10px;\n  color: #969696;\n  padding-top: 3px;\n}\n#name[data-v-51777872] {\n  font-size: 14px;\n  color: #707070;\n  font-weight: 500;\n}\n#message[data-v-51777872] {\n  font-size: 14px;\n  font-weight: 500;\n}\n@-webkit-keyframes carousel-animate-vertical-data-v-51777872 {\n0% {\n    -webkit-transform: translateY(100%) scale(0.5);\n            transform: translateY(100%) scale(0.5);\n    opacity: 0;\n    visibility: hidden;\n}\n3%, 25% {\n    -webkit-transform: translateY(100%) scale(0.7);\n            transform: translateY(100%) scale(0.7);\n    opacity: 0.4;\n    visibility: visible;\n}\n28%, 50% {\n    -webkit-transform: translateY(0) scale(1);\n            transform: translateY(0) scale(1);\n    opacity: 1;\n    visibility: visible;\n}\n53%, 75% {\n    -webkit-transform: translateY(-100%) scale(0.7);\n            transform: translateY(-100%) scale(0.7);\n    opacity: 0.4;\n    visibility: visible;\n}\n78% {\n    -webkit-transform: translateY(-100%) scale(0.5);\n            transform: translateY(-100%) scale(0.5);\n    opacity: 0;\n    visibility: visible;\n}\n100% {\n    -webkit-transform: translateY(-100%) scale(0.2);\n            transform: translateY(-100%) scale(0.2);\n    opacity: 0;\n    visibility: hidden;\n}\n}\n@keyframes carousel-animate-vertical-data-v-51777872 {\n0% {\n    -webkit-transform: translateY(100%) scale(0.5);\n            transform: translateY(100%) scale(0.5);\n    opacity: 0;\n    visibility: hidden;\n}\n3%, 25% {\n    -webkit-transform: translateY(100%) scale(0.7);\n            transform: translateY(100%) scale(0.7);\n    opacity: 0.4;\n    visibility: visible;\n}\n28%, 50% {\n    -webkit-transform: translateY(0) scale(1);\n            transform: translateY(0) scale(1);\n    opacity: 1;\n    visibility: visible;\n}\n53%, 75% {\n    -webkit-transform: translateY(-100%) scale(0.7);\n            transform: translateY(-100%) scale(0.7);\n    opacity: 0.4;\n    visibility: visible;\n}\n78% {\n    -webkit-transform: translateY(-100%) scale(0.5);\n            transform: translateY(-100%) scale(0.5);\n    opacity: 0;\n    visibility: visible;\n}\n100% {\n    -webkit-transform: translateY(-100%) scale(0.2);\n            transform: translateY(-100%) scale(0.2);\n    opacity: 0;\n    visibility: hidden;\n}\n}", ""]);
 
 // exports
 
@@ -18173,38 +18177,7 @@ var render = function() {
   var _c = _vm._self._c || _h
   return _c("div", { attrs: { id: "welcome" } }, [
     _c("header", { staticClass: "flexbox" }, [
-      _c("div", { staticClass: "header-container column" }, [
-        _c("h1", [_vm._v("Gain full control of your customer conversations.")]),
-        _vm._v(" "),
-        _c(
-          "div",
-          {
-            directives: [
-              {
-                name: "animate",
-                rawName: "v-animate",
-                value: "slide-up",
-                expression: "'slide-up'"
-              }
-            ],
-            staticClass: "cta-input flexbox"
-          },
-          [
-            _c("input", {
-              attrs: {
-                type: "email",
-                name: "email-cta",
-                id: "email-cta",
-                placeholder: "Stay tuned"
-              }
-            }),
-            _vm._v(" "),
-            _c("button", { attrs: { type: "submit" } }),
-            _vm._v(" "),
-            _c("div", { staticClass: "spacer" })
-          ]
-        )
-      ]),
+      _vm._m(0),
       _vm._v(" "),
       _c(
         "div",
@@ -18242,7 +18215,7 @@ var render = function() {
                   index == 3
                     ? _c("message-square-icon", {
                         staticClass: "custom-class",
-                        attrs: { size: "1.5x" }
+                        attrs: { size: "1x" }
                       })
                     : _vm._e()
                 ],
@@ -18431,7 +18404,40 @@ var render = function() {
       ])
     ]),
     _vm._v(" "),
-    _vm._m(0)
+    _c("div", { staticClass: "column center", attrs: { id: "cta" } }, [
+      _c("div", { attrs: { id: "cta-container" } }, [
+        _c("h1", [_vm._v("Excited?")]),
+        _vm._v(" "),
+        _vm._m(1),
+        _vm._v(" "),
+        _c(
+          "div",
+          {
+            directives: [
+              {
+                name: "animate",
+                rawName: "v-animate",
+                value: "slide-up",
+                expression: "'slide-up'"
+              }
+            ],
+            staticClass: "cta-input flexbox"
+          },
+          [
+            _c("input", {
+              attrs: {
+                type: "email",
+                name: "email-cta",
+                id: "email-cta",
+                placeholder: "Stay tuned"
+              }
+            }),
+            _vm._v(" "),
+            _c("button", { attrs: { type: "submit" } })
+          ]
+        )
+      ])
+    ])
   ])
 }
 var staticRenderFns = [
@@ -18439,18 +18445,35 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "column center", attrs: { id: "cta" } }, [
-      _c("div", { attrs: { id: "cta-container" } }, [
-        _c("h1", [_vm._v("Wayrise is on the way")]),
+    return _c("div", { staticClass: "header-container column" }, [
+      _c("h1", [_vm._v("Gain full control of your customer conversations.")]),
+      _vm._v(" "),
+      _c("div", { staticClass: "cta-input flexbox animate-in" }, [
+        _c("input", {
+          attrs: {
+            type: "email",
+            name: "email-cta",
+            id: "email-cta",
+            placeholder: "Stay tuned"
+          }
+        }),
         _vm._v(" "),
-        _c("p", [
-          _vm._v(
-            "\n        Be sure to opt-in to hearing more about the release. This is\n        not a newsletter, just a reminder for when\n        "
-          ),
-          _c("strong", [_vm._v("Wayrise")]),
-          _vm._v(" becomes open to the public.\n      ")
-        ])
+        _c("button", { attrs: { type: "submit" } }),
+        _vm._v(" "),
+        _c("div", { staticClass: "spacer" })
       ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("p", [
+      _vm._v(
+        "\n        Be sure to opt-in to hearing more about the release. This is\n        not a newsletter, just a reminder for when\n        "
+      ),
+      _c("strong", [_vm._v("Wayrise")]),
+      _vm._v(" becomes open to the public.\n      ")
     ])
   }
 ]

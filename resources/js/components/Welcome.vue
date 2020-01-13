@@ -3,7 +3,7 @@
     <header class="flexbox">
       <div class="header-container column">
         <h1>Gain full control of your customer conversations.</h1>
-        <div class="cta-input flexbox" v-animate="'slide-up'">
+        <div class="cta-input flexbox animate-in">
           <input type="email" name="email-cta" id="email-cta" placeholder="Stay tuned" />
           <button type="submit"></button>
           <div class="spacer"></div>
@@ -17,7 +17,7 @@
               <mail-icon v-if="index == 0" size="1x" class="custom-class"></mail-icon>
               <twitter-icon v-if="index == 1" size="1x" class="custom-class"></twitter-icon>
               <mail-icon v-if="index == 2" size="1x" class="custom-class"></mail-icon>
-              <message-square-icon v-if="index == 3" size="1.5x" class="custom-class"></message-square-icon>
+              <message-square-icon v-if="index == 3" size="1x" class="custom-class"></message-square-icon>
             </div>
             <p id="name">{{ item[2] }}</p>
             <div class="flexbox">
@@ -82,12 +82,16 @@
     </div>
     <div id="cta" class="column center">
       <div id="cta-container">
-        <h1>Wayrise is on the way</h1>
+        <h1>Excited?</h1>
         <p>
           Be sure to opt-in to hearing more about the release. This is
           not a newsletter, just a reminder for when
           <strong>Wayrise</strong> becomes open to the public.
         </p>
+        <div class="cta-input flexbox" v-animate="'slide-up'">
+          <input type="email" name="email-cta" id="email-cta" placeholder="Stay tuned" />
+          <button type="submit"></button>
+        </div>
       </div>
     </div>
   </div>
@@ -155,6 +159,24 @@ $text-color: #f8f8fb;
 .slide-up.animate-active {
   transform: translateY(0px);
   opacity: 1;
+}
+
+.animate-in {
+  animation-name: animate-in;
+  animation-duration: 0.75s;
+  animation-timing-function: ease-in;
+}
+
+@keyframes animate-in {
+  from {
+    transform: translateY(100px);
+    opacity: 0;
+  }
+
+  to {
+    transform: translateY(0px);
+    opacity: 1;
+  }
 }
 
 #welcome {
@@ -255,15 +277,17 @@ $text-color: #f8f8fb;
   }
 
   #cta {
-    background-image: url("/css/images/ctablob.png");
-    background-size: 80%;
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 540px;
+    background: $header-bg;
+    height: 438px;
+    margin-top: 55px;
 
     #cta-container {
       width: 1030px;
       text-align: center;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
 
       h1 {
         font-weight: 800;
