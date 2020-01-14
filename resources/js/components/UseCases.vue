@@ -2,7 +2,7 @@
   <div id="use-cases">
     <header>
       <div class="header-container">
-        <h1>How We Use Wayrise</h1>
+        <h1>How To Use Wayrise</h1>
         <div class="flexbox">
           <div class="card" @click="selected = 0">
             <img src="css/images/support.png" alt="Customer Support Illustration" />

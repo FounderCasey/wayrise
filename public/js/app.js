@@ -18553,7 +18553,7 @@ var render = function() {
     [
       _c("header", [
         _c("div", { staticClass: "header-container" }, [
-          _c("h1", [_vm._v("How We Use Wayrise")]),
+          _c("h1", [_vm._v("How To Use Wayrise")]),
           _vm._v(" "),
           _c("div", { staticClass: "flexbox" }, [
             _c(
