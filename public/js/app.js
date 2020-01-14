@@ -2222,6 +2222,8 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
 
 /* harmony default export */ __webpack_exports__["default"] = ({
   name: "use-cases",
@@ -18572,7 +18574,17 @@ var render = function() {
                   }
                 }),
                 _vm._v(" "),
-                _c("h2", [_vm._v("Customer Support")])
+                _c("h2", [_vm._v("Customer Support")]),
+                _vm._v(" "),
+                _vm.selected == 0
+                  ? _c("hr", {
+                      staticStyle: {
+                        height: "5px",
+                        background: "#fff",
+                        border: "none"
+                      }
+                    })
+                  : _vm._e()
               ]
             ),
             _vm._v(" "),
@@ -18594,7 +18606,17 @@ var render = function() {
                   }
                 }),
                 _vm._v(" "),
-                _c("h2", [_vm._v("Rental & Property")])
+                _c("h2", [_vm._v("Rental & Property")]),
+                _vm._v(" "),
+                _vm.selected == 1
+                  ? _c("hr", {
+                      staticStyle: {
+                        height: "5px",
+                        background: "#fff",
+                        border: "none"
+                      }
+                    })
+                  : _vm._e()
               ]
             ),
             _vm._v(" "),
@@ -18616,7 +18638,17 @@ var render = function() {
                   }
                 }),
                 _vm._v(" "),
-                _c("h2", [_vm._v("Sales & Logistics")])
+                _c("h2", [_vm._v("Sales & Logistics")]),
+                _vm._v(" "),
+                _vm.selected == 2
+                  ? _c("hr", {
+                      staticStyle: {
+                        height: "5px",
+                        background: "#fff",
+                        border: "none"
+                      }
+                    })
+                  : _vm._e()
               ]
             )
           ])
@@ -18712,7 +18744,7 @@ var staticRenderFns = [
       _vm._v(" "),
       _c("p", [
         _vm._v(
-          "\n          Providing customer support and service for your business is essential.\n          Great customer service is one of the best ways to grow your business;\n          Wayrise provides an essential tool for businesses to maintain clear and\n          uniform communication.\n        "
+          "\n          Wayrise is a great tool for all rental and property management companies.\n          With Wayrise, customer conversations will be available for your whole team\n          to see, to ensure collaboration with clients and tenants.\n        "
         )
       ])
     ])
@@ -18726,7 +18758,7 @@ var staticRenderFns = [
       _vm._v(" "),
       _c("p", [
         _vm._v(
-          "\n          Wayrise offers a real-time collaborative workspace for your teams\n          communication between each other and your valued customers. Maximize\n          your effectiveness when dealing with any customer related issues.\n        "
+          "\n          Wayrise will help your team stay informed and updated with all customer concerns.\n          Customers have plans that are always changing and in order to be on top, your whole\n          team needs to be updated on current events within your company.\n        "
         )
       ])
     ])
@@ -18754,7 +18786,7 @@ var staticRenderFns = [
       _vm._v(" "),
       _c("p", [
         _vm._v(
-          "\n          Providing customer support and service for your business is essential.\n          Great customer service is one of the best ways to grow your business;\n          Wayrise provides an essential tool for businesses to maintain clear and\n          uniform communication.\n        "
+          "\n          Wayrise is an excellent platform for sales and logistical teams.\n          Clients have impressive schedules and your team needs\n          to be on top of new information. Logistical opportunties are always changing\n          and your team can be on top of it. Never miss a deadline or appointment again.\n        "
         )
       ])
     ])
@@ -18768,7 +18800,7 @@ var staticRenderFns = [
       _vm._v(" "),
       _c("p", [
         _vm._v(
-          "\n          Wayrise offers a real-time collaborative workspace for your teams\n          communication between each other and your valued customers. Maximize\n          your effectiveness when dealing with any customer related issues.\n        "
+          "\n          Wayrise offers a real-time collaborative workspace for your teams\n          communication between each other and your valued customers. Maximize\n          your effectiveness when dealing with any customer related issues and requests.\n        "
         )
       ])
     ])
@@ -18938,11 +18970,17 @@ var render = function() {
       _c("div", { staticClass: "max", attrs: { id: "conquer" } }, [
         _c("h1", [_vm._v("Conquer your workspace")]),
         _vm._v(" "),
-        _c("p", [
-          _vm._v(
-            "\n      Wayrise provides a decluttered and shared inbox to ensure your\n      customers are being taken care of and your team is working\n      effortlessly and smooth.\n    "
-          )
-        ]),
+        _c(
+          "p",
+          {
+            staticStyle: { width: "700px", margin: "auto", "font-size": "20px" }
+          },
+          [
+            _vm._v(
+              "\n      Wayrise provides a decluttered and shared inbox to ensure your\n      customers are being taken care of and your team is working\n      effortlessly and smooth.\n    "
+            )
+          ]
+        ),
         _vm._v(" "),
         _c("div", { staticClass: "flexbox" }, [
           _c(

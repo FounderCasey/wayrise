@@ -40,7 +40,7 @@
     </header>
     <div id="conquer" class="max">
       <h1>Conquer your workspace</h1>
-      <p>
+      <p style="width: 700px; margin: auto; font-size: 20px;">
         Wayrise provides a decluttered and shared inbox to ensure your
         customers are being taken care of and your team is working
         effortlessly and smooth.

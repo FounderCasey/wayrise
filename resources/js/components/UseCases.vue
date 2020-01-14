@@ -7,14 +7,17 @@
           <div class="card" @click="selected = 0">
             <img src="css/images/support.png" alt="Customer Support Illustration" />
             <h2>Customer Support</h2>
+            <hr v-if="selected == 0" style="height: 5px; background: #fff; border: none;" />
           </div>
           <div class="card" @click="selected = 1">
             <img src="css/images/property.png" alt="Customer Support Illustration" />
             <h2>Rental & Property</h2>
+            <hr v-if="selected == 1" style="height: 5px; background: #fff; border: none;" />
           </div>
           <div class="card" @click="selected = 2">
             <img src="css/images/sales.png" alt="Customer Support Illustration" />
             <h2>Sales & Logistics</h2>
+            <hr v-if="selected == 2" style="height: 5px; background: #fff; border: none;" />
           </div>
         </div>
       </div>
@@ -49,18 +52,17 @@
         <div>
           <h1>Rental & Property</h1>
           <p>
-            Providing customer support and service for your business is essential.
-            Great customer service is one of the best ways to grow your business;
-            Wayrise provides an essential tool for businesses to maintain clear and
-            uniform communication.
+            Wayrise is a great tool for all rental and property management companies.
+            With Wayrise, customer conversations will be available for your whole team
+            to see, to ensure collaboration with clients and tenants.
           </p>
         </div>
         <div>
           <h3>How Wayrise Helps?</h3>
           <p>
-            Wayrise offers a real-time collaborative workspace for your teams
-            communication between each other and your valued customers. Maximize
-            your effectiveness when dealing with any customer related issues.
+            Wayrise will help your team stay informed and updated with all customer concerns.
+            Customers have plans that are always changing and in order to be on top, your whole
+            team needs to be updated on current events within your company.
           </p>
         </div>
         <div class="list">
@@ -74,10 +76,10 @@
         <div>
           <h1>Sales & Logistics</h1>
           <p>
-            Providing customer support and service for your business is essential.
-            Great customer service is one of the best ways to grow your business;
-            Wayrise provides an essential tool for businesses to maintain clear and
-            uniform communication.
+            Wayrise is an excellent platform for sales and logistical teams.
+            Clients have impressive schedules and your team needs
+            to be on top of new information. Logistical opportunties are always changing
+            and your team can be on top of it. Never miss a deadline or appointment again.
           </p>
         </div>
         <div>
@@ -85,7 +87,7 @@
           <p>
             Wayrise offers a real-time collaborative workspace for your teams
             communication between each other and your valued customers. Maximize
-            your effectiveness when dealing with any customer related issues.
+            your effectiveness when dealing with any customer related issues and requests.
           </p>
         </div>
         <div class="list">
