@@ -4,6 +4,7 @@ import Pricing from "./components/Pricing.vue";
 import UseCases from "./components/UseCases.vue";
 import RegisterUser from "./components/RegisterUser.vue";
 import CallToAction from "./components/CTA.vue";
+import Footer from './components/Footer.vue'
 
 import VueAnimate from "vue-animate-scroll";
 
@@ -19,6 +20,7 @@ const app = new Vue({
         pricing: Pricing,
         "use-cases": UseCases,
         "register-user": RegisterUser,
-        'call-to-action': CallToAction
+        'call-to-action': CallToAction,
+        foot: Footer
     }
 });

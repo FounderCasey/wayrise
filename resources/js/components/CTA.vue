@@ -32,7 +32,8 @@ export default {
   data() {
     return {
       fields: {},
-      errors: {}
+      errors: {},
+      success: false
     };
   },
   methods: {

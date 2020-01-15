@@ -41,6 +41,7 @@
         <div id="app">
             <navbar></navbar>
             @yield('content')
+            <foot></foot>
         </div>
         <script src="/js/app.js"></script>
     </body>
