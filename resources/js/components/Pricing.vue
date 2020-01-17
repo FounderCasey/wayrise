@@ -2,12 +2,12 @@
   <div id="pricing">
     <header>
       <div>
-        <h1>Simple Pricing.</h1>
+        <h1 class="tracking-in-contract">Simple Pricing.</h1>
       </div>
     </header>
     <div id="info">
       <div class="container">
-        <div class="card">
+        <div class="card animate-in">
           <h3>Lite</h3>
           <p class="light">Organize and Build a Collaborative Workspace</p>
           <div class="price">
@@ -28,7 +28,7 @@
             <p>3 Inboxes</p>
           </div>
         </div>
-        <div class="card">
+        <div class="card animate-in">
           <h3>Plus</h3>
           <p class="light">Add Integrations and SMS Inboxes to Your Team</p>
           <div class="price">
@@ -51,7 +51,7 @@
             <p>SMS & Social Inboxes</p>
           </div>
         </div>
-        <div class="card">
+        <div class="card animate-in">
           <h3>Premium</h3>
           <p class="light">Unlock All the Features for Your Team</p>
           <div class="price">
@@ -94,6 +94,91 @@ export default {
 $header-bg: #393ced;
 $body-bg: #23233d;
 $text-color: #f8f8fb;
+
+.animate-in {
+  animation-name: animate-in;
+  animation-duration: 0.75s;
+  animation-timing-function: ease-in;
+
+  &:nth-child(1) {
+    animation-duration: 0.75s;
+  }
+  &:nth-child(2) {
+    animation-duration: 1s;
+  }
+  &:nth-child(3) {
+    animation-duration: 1.25s;
+  }
+}
+
+@keyframes animate-in {
+  from {
+    transform: translateY(100px);
+    opacity: 0;
+  }
+
+  to {
+    transform: translateY(0px);
+    opacity: 1;
+  }
+}
+
+.tracking-in-contract {
+  -webkit-animation: tracking-in-contract 0.8s
+    cubic-bezier(0.215, 0.61, 0.355, 1) both;
+  animation: tracking-in-contract 0.8s cubic-bezier(0.215, 0.61, 0.355, 1) both;
+}
+
+@-webkit-keyframes tracking-in-contract {
+  0% {
+    letter-spacing: 0.5em;
+    opacity: 0;
+    text-shadow: 0px 5px black;
+  }
+  40% {
+    opacity: 0.6;
+    text-shadow: 0px 5px black;
+  }
+  100% {
+    letter-spacing: normal;
+    opacity: 1;
+  }
+}
+@keyframes tracking-in-contract {
+  0% {
+    letter-spacing: 0.25em;
+    opacity: 0;
+    text-shadow: 0px 5px 25px black;
+  }
+  40% {
+    opacity: 0.3;
+    text-shadow: 0px 5px 10px rgba(0, 0, 0, 0.384);
+  }
+  40% {
+    opacity: 0.6;
+    text-shadow: 0px 5px 5px rgba(0, 0, 0, 0.184);
+  }
+  100% {
+    letter-spacing: normal;
+    opacity: 1;
+  }
+}
+
+.animate {
+  transition-delay: 0.14s;
+  transition-duration: 0.25s;
+  transition-timing-function: ease-in;
+}
+
+.slide-up {
+  transform: translateY(100px);
+  opacity: 0;
+}
+
+.slide-up.animate-active {
+  transform: translateY(0px);
+  opacity: 1;
+}
 
 #pricing {
   background: #23233d;
@@ -173,6 +258,10 @@ $text-color: #f8f8fb;
 
           &:hover {
             cursor: pointer;
+          }
+
+          &:focus {
+            outline: none;
           }
         }
       }

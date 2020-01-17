@@ -24,18 +24,17 @@ Route::middleware('auth')->group(function () {
     Route::get('/dashboard/settings', function () {
         return view('tenants.settings');
     })->middleware('check_role:' . "Admin");
-});
 
-Route::get('/oauth/gmail', function () {
-    return LaravelGmail::redirect();
-});
+    Route::get('send_test_email', function () {
+        Mail::raw('Sending emails with Mailgun and Laravel is easy!', function ($message) {
+            $message->subject('Mailgun and Laravel are awesome!');
+            $message->from('no-reply@wayrise.io', Auth::user()->name);
+            $message->to('ioscasey@gmail.com');
+        });
+    });
 
-Route::get('/oauth/gmail/callback', function () {
-    LaravelGmail::makeToken();
-    return redirect()->to('/');
-});
-
-Route::get('/oauth/gmail/logout', function () {
-    LaravelGmail::logout(); //It returns exception if fails
-    return redirect()->to('/');
+    Route::post('inbound-mail', function (Request $request) {
+        Log::info($request->all());
+        return response()->json(['status' => 'ok']);
+    });
 });

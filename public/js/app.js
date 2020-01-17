@@ -2559,7 +2559,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, "#pricing[data-v-345c762b] {\n  background: #23233d;\n  color: #23233d;\n}\n#pricing header[data-v-345c762b] {\n  width: 100%;\n}\n#pricing header div[data-v-345c762b] {\n  display: -webkit-box;\n  display: flex;\n  -webkit-box-pack: center;\n          justify-content: center;\n  -webkit-box-align: center;\n          align-items: center;\n  height: 325px;\n  background: #393ced;\n}\n#pricing header div h1[data-v-345c762b] {\n  font-weight: 800;\n  font-size: 60px;\n  color: #f8f8fb;\n  margin: auto;\n  -webkit-transform: translateY(-30px);\n          transform: translateY(-30px);\n}\n#pricing #info .container[data-v-345c762b] {\n  display: -webkit-box;\n  display: flex;\n  -webkit-box-pack: space-evenly;\n          justify-content: space-evenly;\n  padding: 80px 0;\n}\n#pricing #info .container .card[data-v-345c762b] {\n  text-align: center;\n  width: 330px;\n  padding: 15px 0;\n  background: #f8f8fb;\n  border-radius: 3px;\n  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.267);\n}\n#pricing #info .container .card h3[data-v-345c762b] {\n  font-size: 40px;\n  margin: 0;\n}\n#pricing #info .container .card .light[data-v-345c762b] {\n  font-size: 21px;\n  color: #747474;\n  margin: 8px 0 0px;\n}\n#pricing #info .container .card .price[data-v-345c762b] {\n  display: -webkit-box;\n  display: flex;\n  -webkit-box-pack: center;\n          justify-content: center;\n  -webkit-box-align: center;\n          align-items: center;\n}\n#pricing #info .container .card .price h1[data-v-345c762b] {\n  font-size: 100px;\n  margin: 0 3px;\n}\n#pricing #info .container .card .price h2[data-v-345c762b] {\n  font-size: 50px;\n  font-weight: 700;\n  margin: 0;\n}\n#pricing #info .container .card button[data-v-345c762b] {\n  width: 250px;\n  border: none;\n  height: 50px;\n  border-radius: 5px;\n  background: #393ced;\n  color: #f8f8fb;\n  font-size: 20px;\n  font-weight: 600;\n  margin: 5px 0 25px 0;\n}\n#pricing #info .container .card button[data-v-345c762b]:hover {\n  cursor: pointer;\n}", ""]);
+exports.push([module.i, ".animate-in[data-v-345c762b] {\n  -webkit-animation-name: animate-in-data-v-345c762b;\n          animation-name: animate-in-data-v-345c762b;\n  -webkit-animation-duration: 0.75s;\n          animation-duration: 0.75s;\n  -webkit-animation-timing-function: ease-in;\n          animation-timing-function: ease-in;\n}\n.animate-in[data-v-345c762b]:nth-child(1) {\n  -webkit-animation-duration: 0.75s;\n          animation-duration: 0.75s;\n}\n.animate-in[data-v-345c762b]:nth-child(2) {\n  -webkit-animation-duration: 1s;\n          animation-duration: 1s;\n}\n.animate-in[data-v-345c762b]:nth-child(3) {\n  -webkit-animation-duration: 1.25s;\n          animation-duration: 1.25s;\n}\n@-webkit-keyframes animate-in-data-v-345c762b {\nfrom {\n    -webkit-transform: translateY(100px);\n            transform: translateY(100px);\n    opacity: 0;\n}\nto {\n    -webkit-transform: translateY(0px);\n            transform: translateY(0px);\n    opacity: 1;\n}\n}\n@keyframes animate-in-data-v-345c762b {\nfrom {\n    -webkit-transform: translateY(100px);\n            transform: translateY(100px);\n    opacity: 0;\n}\nto {\n    -webkit-transform: translateY(0px);\n            transform: translateY(0px);\n    opacity: 1;\n}\n}\n.tracking-in-contract[data-v-345c762b] {\n  -webkit-animation: tracking-in-contract-data-v-345c762b 0.8s cubic-bezier(0.215, 0.61, 0.355, 1) both;\n  animation: tracking-in-contract-data-v-345c762b 0.8s cubic-bezier(0.215, 0.61, 0.355, 1) both;\n}\n@-webkit-keyframes tracking-in-contract-data-v-345c762b {\n0% {\n    letter-spacing: 0.5em;\n    opacity: 0;\n    text-shadow: 0px 5px black;\n}\n40% {\n    opacity: 0.6;\n    text-shadow: 0px 5px black;\n}\n100% {\n    letter-spacing: normal;\n    opacity: 1;\n}\n}\n@keyframes tracking-in-contract-data-v-345c762b {\n0% {\n    letter-spacing: 0.25em;\n    opacity: 0;\n    text-shadow: 0px 5px 25px black;\n}\n40% {\n    opacity: 0.3;\n    text-shadow: 0px 5px 10px rgba(0, 0, 0, 0.384);\n}\n40% {\n    opacity: 0.6;\n    text-shadow: 0px 5px 5px rgba(0, 0, 0, 0.184);\n}\n100% {\n    letter-spacing: normal;\n    opacity: 1;\n}\n}\n.animate[data-v-345c762b] {\n  -webkit-transition-delay: 0.14s;\n          transition-delay: 0.14s;\n  -webkit-transition-duration: 0.25s;\n          transition-duration: 0.25s;\n  -webkit-transition-timing-function: ease-in;\n          transition-timing-function: ease-in;\n}\n.slide-up[data-v-345c762b] {\n  -webkit-transform: translateY(100px);\n          transform: translateY(100px);\n  opacity: 0;\n}\n.slide-up.animate-active[data-v-345c762b] {\n  -webkit-transform: translateY(0px);\n          transform: translateY(0px);\n  opacity: 1;\n}\n#pricing[data-v-345c762b] {\n  background: #23233d;\n  color: #23233d;\n}\n#pricing header[data-v-345c762b] {\n  width: 100%;\n}\n#pricing header div[data-v-345c762b] {\n  display: -webkit-box;\n  display: flex;\n  -webkit-box-pack: center;\n          justify-content: center;\n  -webkit-box-align: center;\n          align-items: center;\n  height: 325px;\n  background: #393ced;\n}\n#pricing header div h1[data-v-345c762b] {\n  font-weight: 800;\n  font-size: 60px;\n  color: #f8f8fb;\n  margin: auto;\n  -webkit-transform: translateY(-30px);\n          transform: translateY(-30px);\n}\n#pricing #info .container[data-v-345c762b] {\n  display: -webkit-box;\n  display: flex;\n  -webkit-box-pack: space-evenly;\n          justify-content: space-evenly;\n  padding: 80px 0;\n}\n#pricing #info .container .card[data-v-345c762b] {\n  text-align: center;\n  width: 330px;\n  padding: 15px 0;\n  background: #f8f8fb;\n  border-radius: 3px;\n  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.267);\n}\n#pricing #info .container .card h3[data-v-345c762b] {\n  font-size: 40px;\n  margin: 0;\n}\n#pricing #info .container .card .light[data-v-345c762b] {\n  font-size: 21px;\n  color: #747474;\n  margin: 8px 0 0px;\n}\n#pricing #info .container .card .price[data-v-345c762b] {\n  display: -webkit-box;\n  display: flex;\n  -webkit-box-pack: center;\n          justify-content: center;\n  -webkit-box-align: center;\n          align-items: center;\n}\n#pricing #info .container .card .price h1[data-v-345c762b] {\n  font-size: 100px;\n  margin: 0 3px;\n}\n#pricing #info .container .card .price h2[data-v-345c762b] {\n  font-size: 50px;\n  font-weight: 700;\n  margin: 0;\n}\n#pricing #info .container .card button[data-v-345c762b] {\n  width: 250px;\n  border: none;\n  height: 50px;\n  border-radius: 5px;\n  background: #393ced;\n  color: #f8f8fb;\n  font-size: 20px;\n  font-weight: 600;\n  margin: 5px 0 25px 0;\n}\n#pricing #info .container .card button[data-v-345c762b]:hover {\n  cursor: pointer;\n}\n#pricing #info .container .card button[data-v-345c762b]:focus {\n  outline: none;\n}", ""]);
 
 // exports
 
@@ -18529,7 +18529,13 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("header", [_c("div", [_c("h1", [_vm._v("Simple Pricing.")])])])
+    return _c("header", [
+      _c("div", [
+        _c("h1", { staticClass: "tracking-in-contract" }, [
+          _vm._v("Simple Pricing.")
+        ])
+      ])
+    ])
   },
   function() {
     var _vm = this
@@ -18537,7 +18543,7 @@ var staticRenderFns = [
     var _c = _vm._self._c || _h
     return _c("div", { attrs: { id: "info" } }, [
       _c("div", { staticClass: "container" }, [
-        _c("div", { staticClass: "card" }, [
+        _c("div", { staticClass: "card animate-in" }, [
           _c("h3", [_vm._v("Lite")]),
           _vm._v(" "),
           _c("p", { staticClass: "light" }, [
@@ -18569,7 +18575,7 @@ var staticRenderFns = [
           ])
         ]),
         _vm._v(" "),
-        _c("div", { staticClass: "card" }, [
+        _c("div", { staticClass: "card animate-in" }, [
           _c("h3", [_vm._v("Plus")]),
           _vm._v(" "),
           _c("p", { staticClass: "light" }, [
@@ -18605,7 +18611,7 @@ var staticRenderFns = [
           ])
         ]),
         _vm._v(" "),
-        _c("div", { staticClass: "card" }, [
+        _c("div", { staticClass: "card animate-in" }, [
           _c("h3", [_vm._v("Premium")]),
           _vm._v(" "),
           _c("p", { staticClass: "light" }, [
