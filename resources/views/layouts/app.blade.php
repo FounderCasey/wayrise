@@ -11,6 +11,7 @@
         body {
             font-family: "Montserrat", sans-serif;
             color: #181818;
+            margin: 0;
         }
 
         .flexbox {

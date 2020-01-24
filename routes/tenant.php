@@ -11,11 +11,30 @@
 |
 */
 
+use Webklex\IMAP\Client;
+
 Auth::routes();
 
 Route::middleware('auth')->group(function () {
     Route::get('/dashboard', function () {
-        // Only authenticated users may enter...
+
+        $oClient = new Client([
+            'host'          => 'imap.gmail.com',
+            'port'          => 993,
+            'encryption'    => 'ssl',
+            'validate_cert' => true,
+            'username'      => 'ioscasey@gmail.com',
+            'password'      => 'Chica12345',
+            'protocol'      => 'imap'
+        ]);
+
+        // //Connect to the IMAP Server
+        // $oClient->connect();
+
+        $oClient->connect();
+
+        dd($oClient);
+
         return view('tenants.dashboard');
     });
 
@@ -24,14 +43,6 @@ Route::middleware('auth')->group(function () {
     Route::get('/dashboard/settings', function () {
         return view('tenants.settings');
     })->middleware('check_role:' . "Admin");
-
-    Route::get('send_test_email', function () {
-        Mail::raw('Sending emails with Mailgun and Laravel is easy!', function ($message) {
-            $message->subject('Mailgun and Laravel are awesome!');
-            $message->from('no-reply@wayrise.io', Auth::user()->name);
-            $message->to('ioscasey@gmail.com');
-        });
-    });
 
     Route::post('inbound-mail', function (Request $request) {
         Log::info($request->all());

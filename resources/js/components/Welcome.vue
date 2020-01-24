@@ -23,16 +23,21 @@
         <div class="carousel__item" v-for="(item, index) in messages" :key="index">
           <div class="carousel__item-body">
             <div class="flexbox">
-              <p class="title">{{ item[0] }}</p>
-              <mail-icon v-if="index == 0" size="1x" class="custom-class"></mail-icon>
-              <twitter-icon v-if="index == 1" size="1x" class="custom-class"></twitter-icon>
-              <mail-icon v-if="index == 2" size="1x" class="custom-class"></mail-icon>
-              <message-square-icon v-if="index == 3" size="1x" class="custom-class"></message-square-icon>
+              <div class="flexbox center">
+                <div class="avatar" style="background: #25D17E;" v-if="index == 0"></div>
+                <div class="avatar" style="background: #6CA1FF;" v-if="index == 1"></div>
+                <div class="avatar" style="background: #FF4949;" v-if="index == 2"></div>
+                <div class="avatar" style="background: #FFD362;" v-if="index == 3"></div>
+                <div class="column">
+                  <p class="title">{{ item[2] }}</p>
+                  <p id="time">{{ item[1] }}</p>
+                </div>
+              </div>
+              <div class="notif"></div>
             </div>
-            <p id="name">{{ item[2] }}</p>
+            <p id="name">{{ item[0] }}</p>
             <div class="flexbox">
               <p id="message">{{ item[3] }}</p>
-              <p id="time">{{ item[1] }}</p>
             </div>
           </div>
         </div>
@@ -108,25 +113,25 @@ export default {
           "Help with ordering annually",
           "4 min",
           "Damon Allen",
-          "I was wondering if it's possible to place..."
+          "I was wondering if its possible to set up annual ordering, and if it is can my team..."
         ],
         [
-          "Are there any deals currently",
+          "Just tweeted...",
           "8 min",
           "@Aaliyah",
-          "Are there any deals currently for..."
+          "@wayrise is it possible to check out custom pricing for teams that have some different..."
         ],
         [
           "How do I get access?",
           "12 min",
           "Damon Allen",
-          "I subscribed to the pro plan but..."
+          "I subscribed to the pro plan but my team and I aren't experiencing any changes in features..."
         ],
         [
-          "I was wondering",
+          "New text...",
           "7 min",
           "(321) 431-1234",
-          "I was wondering if it's possible to place..."
+          "I was wondering if it's possible to place an order to start at a postponed date? We need..."
         ]
       ],
       fields: {},
@@ -162,6 +167,15 @@ export default {
 $header-bg: #393ced;
 $body-bg: #23233d;
 $text-color: #f8f8fb;
+
+.notif {
+  background: #393ced;
+  width: 7px;
+  height: 7px;
+  border-radius: 9px;
+  margin-left: 15px;
+  box-shadow: 0px 0px 3px #393cde67;
+}
 
 .animate {
   transition-delay: 0.14s;
@@ -254,6 +268,7 @@ $text-color: #f8f8fb;
     .header-container {
       text-align: left;
       padding-right: 40px;
+      transform: translateY(-50px);
 
       h1 {
         font-weight: 800;
@@ -313,13 +328,13 @@ $slide-change-timing: 3; // percentage of total animation cycle
   display: flex;
   justify-content: center;
   flex-direction: column;
+  transform: translateY(-50px);
 }
 
 .carousel__item {
   display: flex;
   position: absolute;
   width: 100%;
-  height: 80px;
   opacity: 0;
   will-change: transform, opacity;
   animation: carousel-animate-vertical $animation-timing linear infinite;
@@ -335,9 +350,15 @@ $slide-change-timing: 3; // percentage of total animation cycle
   animation-delay: calc(-#{$animation-delay-fraction} * 2);
 }
 
+.avatar {
+  height: 25px;
+  width: 25px;
+  border-radius: 12.5px;
+}
+
 .carousel__item-body {
   width: 100%;
-  padding: 9px;
+  padding: 9px 15px;
   background-color: #fff;
   border-radius: 3px;
   color: $body-bg;
@@ -355,13 +376,15 @@ $slide-change-timing: 3; // percentage of total animation cycle
 .title {
   font-size: 14px;
   font-weight: 700;
-  margin-top: 10px;
+  margin: 0;
+  padding-left: 10px;
 }
 
 #time {
   font-size: 10px;
   color: #969696;
-  padding-top: 3px;
+  margin: 0;
+  padding-left: 10px;
 }
 
 #name {

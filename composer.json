@@ -9,9 +9,8 @@
     "license": "MIT",
     "require": {
         "php": "^7.2",
-        "dacastro4/laravel-gmail": "^3.2",
+        "beyondcode/laravel-mailbox": "^1.3",
         "fideloper/proxy": "^4.0",
-        "google/apiclient": "^2.0",
         "guzzlehttp/guzzle": "^6.5",
         "kriswallsmith/buzz": "^1.0",
         "laravel/framework": "^6.2",
@@ -19,7 +18,9 @@
         "laravel/ui": "^1.1",
         "mailgun/mailgun-php": "^3.0",
         "nyholm/psr7": "^1.2",
-        "stancl/tenancy": "^2.2"
+        "php-imap/php-imap": "^3.0",
+        "stancl/tenancy": "^2.2",
+        "webklex/laravel-imap": "^1.4"
     },
     "require-dev": {
         "facade/ignition": "^1.4",

@@ -24,7 +24,7 @@ class TenantController extends Controller
         $company = $request->company;
         $tenant = Tenant::new()
             ->withDomains([$company . '.wayrise.io'])
-            ->withData(['plan' => 'free', 'name' => $user->name, 'email' => $user->email, 'password' => $user->password])
+            ->withData(['plan' => 'free', 'name' => $user->name, 'email' => $user->email, 'company' => $company, 'password' => $user->password])
             ->save();
         return response()->redirectTo('https://' . $company . '.wayrise.io'); // TODO fix domain
     }
