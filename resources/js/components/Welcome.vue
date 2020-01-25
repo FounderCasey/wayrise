@@ -257,11 +257,12 @@ $text-color: #f8f8fb;
   }
 
   header {
-    padding: 40px 0 70px 0;
+    padding: 40px 0 7 0px 0;
     height: 540px;
     background-image: url("/css/images/header-bg.svg");
     background-repeat: no-repeat;
     background-position: bottom;
+    background-size: 100%;
     display: flex;
     justify-content: center;
 

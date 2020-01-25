@@ -28,12 +28,9 @@ Route::middleware('auth')->group(function () {
             'protocol'      => 'imap'
         ]);
 
-        // //Connect to the IMAP Server
-        // $oClient->connect();
+        //dd(phpinfo());
 
         $oClient->connect();
-
-        dd($oClient);
 
         return view('tenants.dashboard');
     });

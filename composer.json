@@ -20,7 +20,7 @@
         "nyholm/psr7": "^1.2",
         "php-imap/php-imap": "^3.0",
         "stancl/tenancy": "^2.2",
-        "webklex/laravel-imap": "^1.4"
+        "webklex/laravel-imap": "dev-master"
     },
     "require-dev": {
         "facade/ignition": "^1.4",

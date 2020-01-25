@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "47a541ef7701cb715d66ec9fa3e8e218",
+    "content-hash": "b81527fa0720012dc3594847892d065d",
     "packages": [
         {
             "name": "beyondcode/laravel-mailbox",
@@ -4439,16 +4439,16 @@
         },
         {
             "name": "webklex/laravel-imap",
-            "version": "1.4.5",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Webklex/laravel-imap.git",
-                "reference": "ff75c75e25cc8237f7d245dcf354ddb494dd4fd6"
+                "reference": "5d796754eea369246a5647458d465e5e7635b468"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Webklex/laravel-imap/zipball/ff75c75e25cc8237f7d245dcf354ddb494dd4fd6",
-                "reference": "ff75c75e25cc8237f7d245dcf354ddb494dd4fd6",
+                "url": "https://api.github.com/repos/Webklex/laravel-imap/zipball/5d796754eea369246a5647458d465e5e7635b468",
+                "reference": "5d796754eea369246a5647458d465e5e7635b468",
                 "shasum": ""
             },
             "require": {
@@ -4498,7 +4498,7 @@
                 "mail",
                 "webklex"
             ],
-            "time": "2020-01-23T17:17:17+00:00"
+            "time": "2020-01-24T05:58:40+00:00"
         },
         {
             "name": "webmozart/assert",
@@ -6665,7 +6665,9 @@
     ],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": [],
+    "stability-flags": {
+        "webklex/laravel-imap": 20
+    },
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {
